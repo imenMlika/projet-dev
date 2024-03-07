@@ -34,6 +34,9 @@
 
             </ul>
           </div>
+          <a href="http://imen.blog" class="navbar-brand">
+            <img src="images/logo.jpg" alt="Logo" style="height: 70px;">
+          </a>
 
         </div>
       </nav>
