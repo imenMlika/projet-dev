@@ -40,7 +40,8 @@
     </header>
 
     <div class="container">
-      <a href="C:\Users\imenm\Desktop\WAMP\www\imen.blog\public\images/cv-Imen Mlika.pdf">Télécharger cv</a>
+      <a href="images/cv-Imen Mlika.pdf" download="CV_Imen_Mlika.pdf">Télécharger CV</a>
+
     </div>
 
    
