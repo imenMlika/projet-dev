@@ -1,8 +1,6 @@
 <?php
 
 
-
-
 require 'C:\Users\imenm\Desktop\WAMP\www\imen.blog\app\db/connexionDB.php';
 
 try {
@@ -11,10 +9,10 @@ try {
     $stmt->execute();
 
     if ($stmt->rowCount() > 0) {
-        while ($categorie = $stmt->fetch()) {
+        while ($categorie = $stmt->fetch()) { // récuperer les resultats
             echo '<div>';
             echo '<h2>' . htmlspecialchars($categorie['titre']) . '</h2>';
-            // Vérifiez que l'index 'ft_image' existe dans le tableau $categorie
+            
             if (isset($categorie['ft_image']) && file_exists($categorie['ft_image'])) {
                 echo '<img src="' . htmlspecialchars($categorie['ft_image']) . '" alt="' . htmlspecialchars($categorie['titre']) . '">';
             }
@@ -23,7 +21,7 @@ try {
         }
     }
 } catch (PDOException $e) {
-    // Gérer l'exception ici
+    // Gérer les erreures  de DB
 }
 ?>
 

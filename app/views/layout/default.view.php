@@ -52,8 +52,8 @@
 
           <div class="col">
             <h4>Insights</h4>
-            <a href="#">Virtual Box</a>
-            <a href="#">Linux</a>
+            <a href="#">à venir</a>
+            <a href="#"></a>
             <a href="#">[..]</a>
           </div>
 
